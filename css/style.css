@@ -61,6 +61,14 @@ img{
 .btn-primary {
    background-color: hsl(322, 100%, 66%);
    color: #fff;
+   width: 300px;
+   height: 50px;
+   font-size: 1rem;
+}
+
+.btn-secondary{
+   width: 180px;
+   height: 50px;
 }
 
 header {
@@ -87,7 +95,7 @@ nav {
 
 .small-box {
    display: block;
-   width: 400px;
+   width: 700px;
    margin: 0 auto;
 }
 
@@ -118,12 +126,33 @@ footer ul li {
    header {
       max-width: 768px;
    }
+
    header .illustration-img img {
       width: 77%;
    }
 
-   main m .flex{
+   main .flex{
       display: flex;
       flex-direction: column;
+   }
+   .illustration.flex{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+   }
+
+   .btn-primary{
+      width: 200px;
+      font-size:.8rem;
+   }
+
+   .small-box{
+      width: 350px;
+   }
+}
+
+@media only screen and (min-width: 769px){
+   header{
+      padding: 30px;
    }
 }
