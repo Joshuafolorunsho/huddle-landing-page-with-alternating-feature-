@@ -2,6 +2,8 @@
 
 * {
    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
 body {
@@ -46,6 +48,10 @@ img{
    background-color: #fff;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
    cursor: pointer;
+}
+
+.m-sm{
+   margin: 1rem 0;
 }
 
 .btn-primary {
