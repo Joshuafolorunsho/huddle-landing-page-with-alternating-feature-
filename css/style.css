@@ -76,8 +76,9 @@ nav {
 }
 
 .small-box {
-   display: inline-block;
-   text-align: center;
+   display: block;
+   width: 400px;
+   margin: 0 auto;
 }
 
 .box img {
