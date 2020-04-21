@@ -160,6 +160,13 @@ footer ul li {
    }
 }
 
+
+@media only screen and (max-width: 400px) {
+   header .logo {
+      width: 90px;
+   }
+}
+
 @media only screen and (min-width: 769px){
    header{
       padding: 30px;
