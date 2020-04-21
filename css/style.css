@@ -20,6 +20,9 @@ img{
    height: auto;
 }
 
+header .logo {
+   width: 200px;
+}
 
 
 .container {
@@ -123,6 +126,11 @@ footer ul li {
       margin: 0 auto;
       width: 95%;
    }
+
+   header .logo {
+      width: 180px;
+   }
+
    header {
       max-width: 768px;
    }
