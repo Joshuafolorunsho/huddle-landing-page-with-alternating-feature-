@@ -165,14 +165,11 @@ footer ul li {
       padding: 30px;
       height: 90vh;
    }
-
-   .illustration > *{
-      height: 450px;
-
-   }
-
+   
    .illustration.flex{
+      display: flex;
       align-items: center;
+      height: 65vh;
    }
 
    .box p{
