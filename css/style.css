@@ -174,6 +174,11 @@ footer ul li {
       width: 130px;
  
    }
+
+   .small-box{
+      width: 300px;
+      margin: auto;
+   }
 }
 
 @media only screen and (min-width: 769px){
