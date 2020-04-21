@@ -28,7 +28,7 @@ header .logo {
 .container {
    margin: 0 auto;
    max-width: 100%;
-   width: 1000px;
+   width: 1200px;
 }
 
 .center{
@@ -95,6 +95,7 @@ nav {
    margin: 40px 0;
    background-color: #fff;
 }
+
 
 .small-box {
    display: block;
@@ -165,12 +166,26 @@ footer ul li {
       height: 90vh;
    }
 
-   .illustration{
+   .illustration > *{
       height: 450px;
+
    }
 
    .illustration.flex{
       align-items: center;
    }
 
+   .box p{
+      max-width: 80%;
+   }
+   
+   .illustration-title{
+      font-size: 2.3rem;
+      max-width: 440px;
+   }
+   .illustration-description{
+      max-width: 500px;
+      margin: 30px 0;
+      font-size: 1.25rem;
+   }
 }
