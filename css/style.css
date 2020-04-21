@@ -54,6 +54,10 @@ img{
    margin: 1rem 0;
 }
 
+.font-weight-bold{
+   font-weight: bold;
+}
+
 .btn-primary {
    background-color: hsl(322, 100%, 66%);
    color: #fff;
